@@ -159,7 +159,7 @@ const EditDetails = () => {
           onClick={handleNext}
           className="h-12 w-36 cursor-pointer rounded-md bg-sky-400 text-lg hover:bg-sky-500"
         >
-          Next
+          Generate Script
         </button>
       </div>
     </div>

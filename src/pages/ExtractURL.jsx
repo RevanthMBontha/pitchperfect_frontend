@@ -29,7 +29,7 @@ const ExtractURL = () => {
 
       <div className="text-center">
         <p className="text-lg">Currently supports:</p>
-        <p className="font-extralight">Items list</p>
+        <p className="font-extralight">Amazon, Walmart</p>
       </div>
 
       <div className="flex h-fit w-1/2 items-center justify-center gap-x-2 rounded-lg bg-zinc-500 p-2">

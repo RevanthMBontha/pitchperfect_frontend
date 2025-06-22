@@ -1,12 +1,34 @@
-# React + Vite
+# Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## How to Install
 
-Currently, two official plugins are available:
+- Clone the repository
+- Use `yarn` to download all the dependencies.
+- Use `yarn dev` to spin up a dev server.
+- The dev server spins up on `http://localhost:5173/`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> Note: Make sure to spin up the backend server before proceeding further.
 
-## Expanding the ESLint configuration
+## What to expect
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- The first page mimics a landing page. Click on the "Try for Free" button to enter the website.
+- On the Second Page, add the Product URL from Amazon or Walmart, and press "Get Started".
+- The URL is sent to the backend for scraping the details.
+- The next page will show the details that have been scraped from the page. You will be able to edit or add to the details here.
+- Once you are happy with the details, click on "Generate Script" to generate three variations on scripts.
+- Once you select the script that you are happy with, click on "Generate Video" to generate the final video.
+- On the final page, you can see the script used to generate the video ad along with the orientation of the video. On the right side, there is also a playback of the video available.
+- You can download the video using the "Download" button on the last page.
+
+## TechStack Used:
+
+- React as the framework with JS as the base language.
+- React-Router for route based UI navigation.
+- Jotai for global state management.
+- Tailwind for styling.
+- ReactQuery for fetching and caching data.
+- React Icons for iconography.
+
+## Conclusion
+
+The overall idea governing the design of the frontend was functionality paired with a dash of elegance. I did not concentrate too much on creating a visually stunning website, yet did not leave it barebones as most wireframes are left. I think it is a good balance for a project to have some styling to feel coherent and put together without having to delve too deep into visual language principles and I tried to leverage the same approach in this project.
